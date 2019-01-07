@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        body{
+            background-image: url("./img/true.jpg");
+        }
+        .beijing>div{
+            position:fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;
+            width: 350px;
+            height: 330px;
+            padding: 25px;
+            background-color: rgb(204, 185, 185);
+            
+            background: radial-gradient( rgba(255, 255, 255,0), rgba(255, 255, 255,0.5));
+        }
+        .beijing>div>h1{
+            font-size:30px;
+            line-height: 40px; 
+        }
+        .beijing>div>form>div{
+            position:relative;
+        }
+        .beijing>div>form>div>img{
+            position:absolute;
+            top: 28px;
+            left:2px;
+            z-index: 1;
+            width: 30px;
+            
+        }
+        .beijing>div>form>div>input{
+            background-color:rgba(163, 149, 149,.5);
+            border: 1px;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-top: 20px;
+            width: 300px;
+            height: 48px;
+            font-size:17px;
+            padding: 0 40px;
+        }
+        .beijing>div>form>button{
+            background-color: brown;
+            box-sizing: border-box;
+            margin-top: 23px;
+            width: 300px;
+            height: 50px;
+            border-radius: 3px;
+            border: 0px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="beijing">
+        <div>
+            <h1>学生登陆</h1>
+            <form action="">
+                <div>
+                    <input type="text" placeholder="用户名">
+                    <img src="./img/用户.png" alt="" srcset="">
+                </div>
+                <div>
+                    <input type="password" placeholder="密码">
+                    <img src="./img/密码.png" alt="" srcset="">
+                </div>
+                <button type="submit">登 录</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
